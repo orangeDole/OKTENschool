@@ -25,4 +25,8 @@ html,body{
     width: 14%;
     padding-left: 10px;
     margin-bottom: 25px;
+    transition: 0.7s ease;
+}
+.block_ > div:hover{
+    transform: scale(1.2);
 }
