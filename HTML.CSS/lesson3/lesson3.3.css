@@ -1,0 +1,78 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    font-size: 37px;
+    color: white;
+    animation:  aElements 7s alternate infinite;
+   
+}
+
+a:hover{
+    transition: 0.9s ease;
+    transform: rotateX(360deg);
+
+}
+
+@keyframes aElements {
+    0%{
+        color: rgb(200, 200, 234);
+    }
+    10%{
+        color: rgb(121, 121, 213);
+
+    }
+    20%{
+        color: rgb(60, 60, 190);
+
+    }
+    30%{
+        color: rgb(27, 27, 137);
+
+    }
+    40%{
+        color: rgb(14, 14, 92);
+
+    }
+    60%{
+        color: rgb(5, 5, 44);
+
+    }
+    80%{
+        color: rgb(4, 4, 68);
+
+    }
+    100%{
+        color: rgb(43, 20, 54);
+
+    }
+}
+
+
+
+
+body > section:nth-child(1){
+    background-color: rgb(60, 69, 45);
+}
+
+body > section:nth-child(2){
+    background-color: rgb(53, 69, 89);
+}
+
+body > section:nth-child(3){
+    background-color: rgb(101, 85, 31);
+}
