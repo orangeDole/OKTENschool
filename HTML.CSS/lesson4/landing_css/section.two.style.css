@@ -1,0 +1,46 @@
+.section_two{
+    height: 50vh;
+    display: flex;
+
+    background-color: rgb(218, 177, 203);
+    margin-top: 5px;
+
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+    
+
+}
+.user_png{
+    width: 50%;
+    height: 100%;
+
+    
+display: flex;
+justify-content: center;
+align-items: center;
+
+border-right: 3px solid rgb(222, 242, 96);
+
+}
+.user_png > img {
+    height:85%;
+}
+.cont_txt{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+.cont_txt a {
+color: rebeccapurple;
+font-size: 20px;
+}
+h2{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: monospace;
+}

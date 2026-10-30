@@ -1,0 +1,96 @@
+.bottom_cards{
+display: flex;
+flex-direction: column;
+height: 90vh
+}
+.top{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+    height: 20%;
+
+}
+.left_side_txt{
+    width: 60%;
+    height: 50%;
+    text-align: center;
+}
+.left_side_txt > h2 {
+    font-size: 40px;
+letter-spacing: -3px;
+}
+.buttons_rigth_side{
+    width: 40%;
+    height: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(204, 227, 227, 0.323);
+    opacity: 0.7;
+    box-shadow: 5px 5px 30px rgb(68, 46, 46);
+    border-radius: 25px;
+}
+.buttons_rigth_side button{
+    height: 50%;
+    width: 45%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5px;
+
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.buttons_rigth_side button:hover{
+    background-color: rgb(53, 53, 158);
+    color: white;
+}
+.cards_bottom {
+    display: flex;
+    height: 90%;
+    
+    gap: 25px;
+
+}
+.cards_bottom > div {
+    height: 70%;
+    width: 35%;
+
+    border: 1px solid rgb(205, 169, 169);
+    background-color: rgb(201, 205, 205);
+transition: 1s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cards_bottom  div:hover{
+    background-color: rgb(244, 100, 64);
+    transform: scale(0.9);
+}
+
+.cards_bottom > div h2{
+    font-size: 35px;
+    text-decoration: underline;
+}
+.cards_bottom > div :nth-child(1){
+    font-size: 25px;
+    text-decoration: underline;
+    margin: 0;
+}
+.cards_bottom div > button{
+    width: 45%;
+    height: 10%;
+    font-size: 100%;
+    font-weight: bold;
+}
+footer{
+    display: flex;
+    height: 20vh;
+    background-color: rgb(235, 235, 239);
+}
+footer > iframe{
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,27 @@
+.section_three{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+}
+.sec3_png{
+    background-color: rgb(235, 179, 179);
+}
+.sec3_png img {
+    height:85%;
+}
+.sec3_txt{
+    background-color: #ede9b7df;
+}
+
+.section_three > div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.section_three > div a {
+    color: rebeccapurple;
+font-size: 20px;
+}

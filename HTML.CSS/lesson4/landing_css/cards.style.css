@@ -1,0 +1,36 @@
+.cards{
+    margin-top: 9vh;
+    height: 35vh;
+    background-color: rgb(230, 228, 226);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cards > div img {
+    height: 40%;
+}
+.cards > div{
+    border-radius: 25px;
+    background-color: rgb(217, 232, 227);
+    box-shadow: 5px 5px 40px rgb(210, 121, 121);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+padding-top: 5px;
+
+    width: 20%;
+    height: 90%;
+
+    border: 1px solid rgb(211, 172, 172);
+
+ 
+}
+
+.cards>div:hover{
+        transition: 1.3s ease;
+
+    transform: rotateY(360deg);
+}
