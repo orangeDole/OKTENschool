@@ -1,0 +1,132 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.cont{
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+    width: 50%;
+    height: 60%;
+
+background-color: rgb(138, 138, 138);
+border: 2px solid black;
+
+    perspective-origin: center;
+    perspective: 300px; 
+    transform-style: preserve-3d;
+
+}
+@keyframes rotateCube{
+
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+.wrap{ 
+animation: rotateCube 15s infinite ;
+
+    width: 50%;
+    height: 50%;
+
+    perspective:3200px; 
+    transform-style: preserve-3d;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+transform: rotateY(70deg);
+
+}
+
+.back{
+    position: absolute;
+
+    width: 150px;
+    height: 150px;
+
+    border: 2px solid black;
+    background-color: rgba(43, 113, 226, 0.705);
+    
+    transform: translateZ(77px);
+    
+}
+.bottom{
+top: 50%;
+
+    position: absolute;
+    width: 150px;
+    height: 150px;
+
+    border: 2px solid black;
+    background-color: rgba(43, 226, 144, 0.185);
+
+transform: rotateX(90deg);
+}
+
+.top{
+    top: -4%;
+       position: absolute;
+    width: 150px;
+    height: 150px;
+
+    border: 2px solid black;
+    background-color: rgba(211, 9, 140, 0.514); 
+
+    transform: rotateX(90deg);
+
+}
+.left{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+
+    border: 2px solid black;
+    background-color: rgba(226, 128, 9, 0.371); 
+
+    
+left: 18%;
+    transform: rotateY(90deg);
+}
+.rigth{
+       position: absolute;
+    width: 150px;
+    height: 150px;
+
+    border: 2px solid black;
+    background-color: rgba(241, 0, 157, 0.806);  
+    transform: rotateY(-90deg);
+
+    left: 50%;
+    
+}
+
+.front{
+           position: absolute;
+    width: 150px;
+    height: 150px;
+
+    border: 2px solid black;
+    background-color: rgba(241, 0, 20, 0.383);
+ transform: translateZ(-75px);
+
+}
+
+.wrap > div {
+    text-align: center;
+}
