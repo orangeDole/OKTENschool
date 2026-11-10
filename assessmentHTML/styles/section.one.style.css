@@ -1,0 +1,132 @@
+.section_one{
+
+    width: 100%;
+    height: 100vh;
+    
+
+    background-color: rgba(210, 210, 222, 0.217);
+
+    display: flex;
+align-items: center;
+}
+.block_txt{
+    width: 60%;
+    height: 60%;
+    margin-left: 3%;
+
+}
+
+h1{
+    font-size: 64px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.block_txt p {
+    color:rgb(137, 132, 132) ;
+}
+.block_txt form{
+    height: 10%;
+    width: 70%;
+
+    margin: 0;
+}
+.block_txt button{
+    height: 100%;
+    width: 15%;
+
+    background-color: #6246ea;
+    color: white ;
+    border-radius: 8px;
+    font-weight: 700;
+}
+input{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+border: none;
+    opacity: 0.3;
+}
+.block_img{
+    width: 40%;
+    height: 60%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.block_img img {
+    height: 70%;
+}
+
+.cards_section{
+    height: 40vh;
+
+    background-color: rgba(210, 210, 222, 0.217);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.category{
+    width: 93%;
+    height: 7%;
+
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.category :nth-child(1){
+    margin-left: 2%;
+}
+.category :nth-child(2){
+    margin-right: 2%;
+}
+.category :nth-child(2)::after{
+
+    content: " ❯";
+}
+
+.cards{
+    height: 93%;
+    width: 93%;
+
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 1px;
+
+    box-sizing: border-box;
+    padding: 13px;
+
+}
+.cards span{
+    font-weight: 600;
+}
+.cards div {
+    width: 15%;
+    height: 70%;
+
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+padding-left: 15px;
+background-color: white;
+}
+.cards div:hover{
+    background-color: #6246ea;
+    color: white;
+}
+.cards img {
+    background-color: white ;    height: 20%;
+    width: 20%;
+    padding: 5px;
+
+    border-radius: 7px;
+}
