@@ -42,6 +42,9 @@ console.log(`
     const last_name      =  "Prodaniuk";
     const date_of_birth  = "23.06.1999";
 
+
+    const person = `${first_name} ${last_name} ${date_of_birth}`
+
     console.log(`FirstName:${first_name}  LastName:${last_name}  DateOfBirth:${date_of_birth}`)
 
     /////////////////////////////////////
